@@ -5,5 +5,5 @@ package org.example
  *
  */
 object App extends App{
-  println( "Hello World!!!!!!!!" )
+  println( "Hello World!!!" )
 }
