@@ -4,6 +4,9 @@ package org.example
  * Hello world!
  *
  */
-object App extends App{
-  println( "Hello World！" )
+object App {
+  def main(args: Array[String]): Unit = {
+
+    println( "Hello World! " )
+  }
 }
