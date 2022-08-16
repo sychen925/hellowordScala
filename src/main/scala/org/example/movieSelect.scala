@@ -23,7 +23,7 @@ object movieSelect {
         movieAccount2007=movieAccount2007 + movieData.select("_c6").collect.array(i-1).toString().substring(2,minYearLength-2).toFloat
       }
     }
-    println("================================"+movieAccount2007)
+    println("================================="+movieAccount2007)
     //val minYear = movieData.collect()(6)
 
 
