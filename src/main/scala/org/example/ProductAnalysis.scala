@@ -13,7 +13,7 @@ object ProductAnalysis {
 
     val productData = spark.read.option("header", true).csv("./src/data/ProductData.csv")
     val salesData = spark.read.option("header", true).csv("./src/data/SalesOrderData.csv")
-    val joinTable = salesData.join(productData, salesData("ProductID") === productData("ProductID")).show()
+    val joinTable = salesData.join(productData, salesData("ProductID") === productData("ProductID"))
 
 
 
