@@ -1,5 +1,5 @@
 package org.example
 
-object ProductSelect {
+object Movieselect {
 
 }
