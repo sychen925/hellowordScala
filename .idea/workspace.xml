@@ -10,33 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b4e59e-2dff-41c4-885b-2c273bee7058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/ProductData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/SalesOrderData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProductAnalysis.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/SelectMovie.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark01_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark02_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark03_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark04_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark05_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark06_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark07_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark08_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark09_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark10_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark11_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark12_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark13_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark14_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark15_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark16_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark17_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark18_RDD_Operator_transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/Spark19_RDD_Operator_transform.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/MovieSelect.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProductSelect.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/movieSelect.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ProductData.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/SalesOrderData.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/ProductAnalysis.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/SelectMovie.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark01_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark02_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark03_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark04_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark05_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark06_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark07_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark08_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark09_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark10_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark11_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark12_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark13_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark14_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark15_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark16_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark17_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark18_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark19_RDD_Operator_transform.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +49,7 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Package Object" />
-        <option value="Scala Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="csy" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -84,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/shiyu.chenthoughtworks.com/github/scalatest/scalatest01/src/data",
+    "last_opened_file_path": "/Users/shiyu.chenthoughtworks.com/github/scalatest/scalatest01/src/main/scala/org/example",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
@@ -94,22 +84,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/org/example" />
       <recent name="$PROJECT_DIR$/src/data" />
-      <recent name="$PROJECT_DIR$/src/main/scala" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/、" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.ProductAnalysis">
-    <configuration name="ProductAnalysis" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductAnalysis" />
+  <component name="RunManager" selected="Application.movieSelect">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectMovie" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SelectMovie" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark17_RDD_Operator_transform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Spark17_RDD_Operator_transform" />
+    <configuration name="MovieSelect" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MovieSelect" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark18_RDD_Operator_transform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Spark18_RDD_Operator_transform" />
+    <configuration name="helloWorld" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.helloWorld" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark19_RDD_Operator_transform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Spark19_RDD_Operator_transform" />
+    <configuration name="movieSelect" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.movieSelect" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -175,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductAnalysis" />
-        <item itemvalue="Application.SelectMovie" />
-        <item itemvalue="Application.Spark19_RDD_Operator_transform" />
-        <item itemvalue="Application.Spark18_RDD_Operator_transform" />
-        <item itemvalue="Application.Spark17_RDD_Operator_transform" />
+        <item itemvalue="Application.movieSelect" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.MovieSelect" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.helloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +180,7 @@
       <updated>1660209712304</updated>
       <workItem from="1660209715090" duration="30170000" />
       <workItem from="1660530614025" duration="842000" />
-      <workItem from="1660532681101" duration="96310000" />
+      <workItem from="1660532681101" duration="18070000" />
     </task>
     <servers />
   </component>
@@ -208,39 +192,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/csy" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/csy" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/master" />
-                </option>
-              </RecentGroup>
-            </list>
+            <State />
           </value>
         </entry>
       </map>
