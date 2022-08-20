@@ -10,36 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b4e59e-2dff-41c4-885b-2c273bee7058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/MovieSelect.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProductSelect.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/part-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/part-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/ProductData.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/SalesOrderData.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/ProductAnalysis.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/SelectMovie.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark01_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark02_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark03_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark04_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark05_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark06_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark07_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark08_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark09_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark10_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark11_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark12_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark13_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark14_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark15_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark16_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark17_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark18_RDD_Operator_transform.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Spark19_RDD_Operator_transform.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Movieselect.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/Movieselect.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/ProductSelect.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProductSelect.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,24 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/shiyu.chenthoughtworks.com/github/scalatest/scalatest01/src/main/scala/org/example",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.64838254",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shiyu.chenthoughtworks.com/github/scalatest/scalatest01/src/main/scala/org/example&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.64838254&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/org/example" />
@@ -91,7 +65,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.movieSelect">
+  <component name="RunManager" selected="Application.SelectMovie">
     <configuration name="App" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="scalatest01" />
@@ -131,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloWorld" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.helloWorld" />
+    <configuration name="SelectMovie" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SelectMovie" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectMovie" />
         <item itemvalue="Application.movieSelect" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.MovieSelect" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.helloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +155,7 @@
       <workItem from="1660209715090" duration="30170000" />
       <workItem from="1660530614025" duration="842000" />
       <workItem from="1660532681101" duration="18070000" />
+      <workItem from="1660987508664" duration="1236000" />
     </task>
     <servers />
   </component>
