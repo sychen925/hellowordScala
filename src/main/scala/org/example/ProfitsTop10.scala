@@ -11,6 +11,7 @@ object ProfitsTop10 {
     val salesData = readCSV(spark,"SalesOrderData")
     val joinSalseAndProduct = joinTable(salesData,productData,"ProductID")
     val profits = profitsSort(joinSalseAndProduct)
+//    profits.show()
     val totalProfitTop10 = selectProfitsTop10(profits)
     saveCSV(totalProfitTop10,"./src/data/totalProfitTop10.csv")
   }

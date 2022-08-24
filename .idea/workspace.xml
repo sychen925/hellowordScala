@@ -11,6 +11,12 @@
   <component name="ChangeListManager">
     <list default="true" id="52b4e59e-2dff-41c4-885b-2c273bee7058" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/.part-00000-eb963096-87dd-440b-a25f-9801fe07a263-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/part-00000-eb963096-87dd-440b-a25f-9801fe07a263-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/ProfitsTop10.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProfitsTop10.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +72,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProfitsTop10">
+  <component name="RunManager" selected="Application.LongestTimeSpan">
     <configuration name="LongestTimeSpan" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.example.LongestTimeSpan" />
       <module name="scalatest01" />
@@ -134,10 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestTimeSpan" />
         <item itemvalue="Application.ProfitsTop10" />
         <item itemvalue="Application.ProfitsTop10Demo" />
         <item itemvalue="Application.ProductSelect" />
-        <item itemvalue="Application.LongestTimeSpan" />
         <item itemvalue="Application.ProductSelectDemo" />
       </list>
     </recent_temporary>
@@ -160,6 +166,7 @@
       <workItem from="1661133618498" duration="45844000" />
       <workItem from="1661245550217" duration="4146000" />
       <workItem from="1661259654035" duration="5143000" />
+      <workItem from="1661322355598" duration="1442000" />
     </task>
     <servers />
   </component>

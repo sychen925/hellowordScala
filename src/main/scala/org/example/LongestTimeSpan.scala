@@ -31,7 +31,7 @@ object LongestTimeSpan {
   }
 
   def caculateTimeSpanTop50(joinSalesAndProduct:DataFrame,timeSpanCol1:String,timeSpanCol2:String) ={
-    joinSalesAndProduct.select(col("SalesOrderID"), col("Modifieddate"), col("Orderdate"), datediff(col(timeSpanCol1), col(timeSpanCol2)).alias("datediff"))
+    joinSalesAndProduct.select(col("SalesOrderDetailID"), col("Modifieddate"), col("Orderdate"), datediff(col(timeSpanCol1), col(timeSpanCol2)).alias("datediff"))
       .sort(col("datediff").desc).limit(50)
   }
 
