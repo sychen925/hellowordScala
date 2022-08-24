@@ -10,24 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b4e59e-2dff-41c4-885b-2c273bee7058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mydata.csv/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydata.csv/.part-00000-08501cf6-09c1-484d-8e26-6869975eaa91-c000.csv.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydata.csv/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydata.csv/part-00000-08501cf6-09c1-484d-8e26-6869975eaa91-c000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/CustomerAddress-data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/ProductData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/SalesOrderData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/DFConvertDS.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/LongestTimeSpan.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProfitsTop10.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProfitsTop10Demo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/RDDConvertDF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/RDDConvertDS.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/movies.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Movieselect.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/Movieselect.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/ProductSelect.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProductSelect.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +159,7 @@
       <workItem from="1660987508664" duration="1236000" />
       <workItem from="1661133618498" duration="45844000" />
       <workItem from="1661245550217" duration="4146000" />
-      <workItem from="1661259654035" duration="3219000" />
+      <workItem from="1661259654035" duration="5143000" />
     </task>
     <servers />
   </component>
