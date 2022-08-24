@@ -1,20 +1,27 @@
 package org.example
 
+import org.apache.spark
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.{col, expr, sum, trunc}
 
-object ProductSelect {
+object ProductSelectDemo {
   def main(args: Array[String]): Unit = {
     val spark = createSparkSession()
+
     val productData = readCSV(spark,"ProductData.csv")
     val salesData = readCSV(spark,"SalesOrderData.csv")
     val customerAddressData = readCSV(spark,"CustomerAddress-data.csv")
+
     val caculatedProfitsDataframe = caculateProfits(productData, salesData, customerAddressData)
+
+
     val orderDateMonth = addMonthCol(caculatedProfitsDataframe)
+
     val totalDue = sumTotalDueAndProfitsByIdAndMonth(orderDateMonth)
     saveToCSV(totalDue,"./src/data/salesProfitDiffCities.csv")
 
   }
+
   def createSparkSession(): SparkSession = {
     val spark = SparkSession
       .builder()
@@ -50,4 +57,5 @@ object ProductSelect {
       .option("delimiter", "|")
       .csv(path)
   }
+
 }

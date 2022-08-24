@@ -10,8 +10,6 @@ object Movieselect {
       .builder()
       .master("local")
       .getOrCreate()
-
-
     //    val movieData = spark.read.csv("./src/data/movies.csv")
     val movieData = spark.read.option("header", true).csv("./src/data/movies.csv")
     movieData.show()

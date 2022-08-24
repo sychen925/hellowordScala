@@ -10,8 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b4e59e-2dff-41c4-885b-2c273bee7058" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mydata.csv/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydata.csv/.part-00000-08501cf6-09c1-484d-8e26-6869975eaa91-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydata.csv/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydata.csv/part-00000-08501cf6-09c1-484d-8e26-6869975eaa91-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/CustomerAddress-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/ProductData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/SalesOrderData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/DFConvertDS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/LongestTimeSpan.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProfitsTop10.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProfitsTop10Demo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/RDDConvertDF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/example/RDDConvertDS.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/movies.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/Movieselect.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/Movieselect.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/ProductSelect.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProductSelect.scala" afterDir="false" />
     </list>
@@ -48,7 +62,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shiyu.chenthoughtworks.com/github/scalatest/scalatest01/src/main/scala/org/example&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shiyu.chenthoughtworks.com/github/scalatest/scalatest01/src/data&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -58,16 +72,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/scala/org/example" />
       <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/src/main/scala/org/example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SelectMovie">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+  <component name="RunManager" selected="Application.ProfitsTop10">
+    <configuration name="LongestTimeSpan" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LongestTimeSpan" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="ProductSelect" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ProductSelect" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieSelect" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MovieSelect" />
+    <configuration name="ProductSelectDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ProductSelectDemo" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectMovie" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SelectMovie" />
+    <configuration name="ProfitsTop10" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ProfitsTop10" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="movieSelect" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.movieSelect" />
+    <configuration name="ProfitsTop10Demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ProfitsTop10Demo" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectMovie" />
-        <item itemvalue="Application.movieSelect" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.MovieSelect" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ProfitsTop10" />
+        <item itemvalue="Application.ProfitsTop10Demo" />
+        <item itemvalue="Application.ProductSelect" />
+        <item itemvalue="Application.LongestTimeSpan" />
+        <item itemvalue="Application.ProductSelectDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +174,9 @@
       <workItem from="1660530614025" duration="842000" />
       <workItem from="1660532681101" duration="18070000" />
       <workItem from="1660987508664" duration="1236000" />
+      <workItem from="1661133618498" duration="45844000" />
+      <workItem from="1661245550217" duration="4146000" />
+      <workItem from="1661259654035" duration="3219000" />
     </task>
     <servers />
   </component>
