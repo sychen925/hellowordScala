@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52b4e59e-2dff-41c4-885b-2c273bee7058" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/LongestTimeSpan.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/LongestTimeSpan.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,20 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestTimeSpan">
+  <component name="RunManager" selected="Application.DFConvertDS">
+    <configuration name="DFConvertDS" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DFConvertDS" />
+      <module name="scalatest01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestTimeSpan" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.example.LongestTimeSpan" />
       <module name="scalatest01" />
@@ -83,19 +96,6 @@
     </configuration>
     <configuration name="ProductSelect" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ProductSelect" />
-      <module name="scalatest01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductSelectDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductSelectDemo" />
       <module name="scalatest01" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DFConvertDS" />
         <item itemvalue="Application.LongestTimeSpan" />
         <item itemvalue="Application.ProfitsTop10" />
         <item itemvalue="Application.ProfitsTop10Demo" />
         <item itemvalue="Application.ProductSelect" />
-        <item itemvalue="Application.ProductSelectDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,7 @@
       <workItem from="1661133618498" duration="45844000" />
       <workItem from="1661245550217" duration="4146000" />
       <workItem from="1661259654035" duration="5143000" />
-      <workItem from="1661322355598" duration="2072000" />
+      <workItem from="1661322355598" duration="3657000" />
     </task>
     <servers />
   </component>

@@ -1,14 +1,14 @@
 package org.example
 
-import org.apache.spark
+
 import org.apache.spark.sql.{DataFrame, SparkSession}
-import org.apache.spark.sql.functions.{col, datediff, desc, expr, max, min, sum, trunc}
+import org.apache.spark.sql.functions.{col, datediff}
 
 object LongestTimeSpan {
   def main(args: Array[String]): Unit = {
     val spark = createSparkSession()
-    val productData = readCVS(spark,"ProductData")
-    val salesData = readCVS(spark,"SalesOrderData")
+    val productData = readCSV(spark,"ProductData")
+    val salesData = readCSV(spark,"SalesOrderData")
     val joinSalesAndProductTable = joinSalesAndProduct(salesData,productData,"ProductID")
     val longestTimeSpan = caculateTimeSpanTop50(joinSalesAndProductTable,"Orderdate","Modifieddate")
     saveCSV(longestTimeSpan,"./src/data/longestTimeSpan.csv")
@@ -22,7 +22,7 @@ object LongestTimeSpan {
     spark
   }
 
-  def readCVS(sparkSession: SparkSession,csvName:String):DataFrame ={
+  def readCSV(sparkSession: SparkSession,csvName:String):DataFrame ={
     sparkSession.read.option("header", true).csv(s"./src/data/${csvName}.csv")
   }
 
