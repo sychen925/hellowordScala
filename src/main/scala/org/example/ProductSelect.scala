@@ -13,6 +13,7 @@ object ProductSelect {
     val orderDateMonth = addMonthCol(caculatedProfitsDataframe)
     val totalDue = sumTotalDueAndProfitsByIdAndMonth(orderDateMonth)
     saveToCSV(totalDue,"./src/data/salesProfitDiffCities.csv")
+    //test
 
   }
   def createSparkSession(): SparkSession = {
