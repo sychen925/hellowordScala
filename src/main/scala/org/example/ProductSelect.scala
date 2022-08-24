@@ -9,8 +9,8 @@ object ProductSelect {
     val productData = readCSV(spark,"ProductData.csv")
     val salesData = readCSV(spark,"SalesOrderData.csv")
     val customerAddressData = readCSV(spark,"CustomerAddress-data.csv")
-    val caculatedProfitsDataframe = caculateProfits(productData, salesData, customerAddressData)
-    val orderDateMonth = addMonthCol(caculatedProfitsDataframe)
+    val calculatedProfitsDataframe = caculateProfits(productData, salesData, customerAddressData)
+    val orderDateMonth = addMonthCol(calculatedProfitsDataframe)
     val totalDue = sumTotalDueAndProfitsByIdAndMonth(orderDateMonth)
     saveToCSV(totalDue,"./src/data/salesProfitDiffCities.csv")
     //test

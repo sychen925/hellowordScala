@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52b4e59e-2dff-41c4-885b-2c273bee7058" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" afterDir="false" />
-    </list>
+    <list default="true" id="52b4e59e-2dff-41c4-885b-2c273bee7058" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +158,7 @@
       <workItem from="1661133618498" duration="45844000" />
       <workItem from="1661245550217" duration="4146000" />
       <workItem from="1661259654035" duration="5143000" />
-      <workItem from="1661322355598" duration="6550000" />
+      <workItem from="1661322355598" duration="6864000" />
     </task>
     <servers />
   </component>
