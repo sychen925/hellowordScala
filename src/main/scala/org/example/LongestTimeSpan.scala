@@ -12,7 +12,6 @@ object LongestTimeSpan {
     val joinSalesAndProductTable = joinSalesAndProduct(salesData,productData,"ProductID")
     val longestTimeSpan = caculateTimeSpanTop50(joinSalesAndProductTable,"Orderdate","Modifieddate")
     saveCSV(longestTimeSpan,"./src/data/longestTimeSpan.csv")
-    //test
   }
 
   def createSparkSession():SparkSession = {
