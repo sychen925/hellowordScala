@@ -10,12 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b4e59e-2dff-41c4-885b-2c273bee7058" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/data/longestTimeSpan.csv/.part-00000-36ae3095-9cd2-4a88-853b-4733ec667715-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/longestTimeSpan.csv/part-00000-36ae3095-9cd2-4a88-853b-4733ec667715-c000.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/scalatest01_jar/scalatest01.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/.part-00000-eb963096-87dd-440b-a25f-9801fe07a263-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/part-00000-eb963096-87dd-440b-a25f-9801fe07a263-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/longestTimeSpan.csv/.part-00000-7793f915-e6b9-41c9-b8c7-fd12fc1c0e4b-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/longestTimeSpan.csv/part-00000-7793f915-e6b9-41c9-b8c7-fd12fc1c0e4b-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/.part-00000-eb963096-87dd-440b-a25f-9801fe07a263-c000.csv.crc" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/.part-00000-618fe6fb-564d-4553-85c2-8bd2d1660db5-c000.csv.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/part-00000-eb963096-87dd-440b-a25f-9801fe07a263-c000.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/totalProfitTop10.csv/part-00000-618fe6fb-564d-4553-85c2-8bd2d1660db5-c000.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/LongestTimeSpan.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/LongestTimeSpan.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/example/ProfitsTop10.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/example/ProfitsTop10.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +169,7 @@
       <workItem from="1661133618498" duration="45844000" />
       <workItem from="1661245550217" duration="4146000" />
       <workItem from="1661259654035" duration="5143000" />
-      <workItem from="1661322355598" duration="1442000" />
+      <workItem from="1661322355598" duration="1773000" />
     </task>
     <servers />
   </component>
